@@ -2,6 +2,8 @@ import React from "react";
 
 // jsx 문법에서는 html 태그를 사용 시 반드시 시작태그와 끝태그가 존재해야한다.
 // <img> -> <img></img>, <img /> , <br> -> <br></br>, <br/>
+
+
 function Address({data}){
     return  <h3>
         나의 친구는 {data}
